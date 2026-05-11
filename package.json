@@ -1,0 +1,20 @@
+{
+  "name": "require-npm-global",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [],
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukks/require-npm-global.git"
+  },
+  "author": "Lucas Barrena (LuKks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukks/require-npm-global/issues"
+  },
+  "homepage": "https://github.com/lukks/require-npm-global#readme"
+}
