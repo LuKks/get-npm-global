@@ -9,7 +9,7 @@ function getRequire () {
   }
 
   // TODO: Read "prefix" from ~/.npmrc to avoid executing npm binary
-  const root = execFileSync('npm', ['root', '-g'], { encoding: 'utf8' }).trim()
+  const root = execFileSync('npm', ['root', '-g'], { shell: process.platform === 'win32', encoding: 'utf8' }).trim()
 
   req = createRequire(root + '/')
 
