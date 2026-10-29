@@ -1,13 +1,22 @@
-# require-npm-global
+# get-npm-global
+
+Require a package from the global NPM path
 
 ```
-npm i require-npm-global
+npm i get-npm-global
 ```
 
 ## Usage
 
 ```js
-const require-npm-global = require('require-npm-global')
+const requireGlobal = require('get-npm-global')
+
+// For example:
+// npm i -g brittle
+
+const test = requireGlobal('brittle')
+
+// ...
 ```
 
 ## License

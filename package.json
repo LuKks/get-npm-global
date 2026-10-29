@@ -1,7 +1,7 @@
 {
-  "name": "require-npm-global",
+  "name": "get-npm-global",
   "version": "0.0.0",
-  "description": "",
+  "description": "Require a package from the global NPM path",
   "main": "index.js",
   "files": [],
   "scripts": {
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukks/require-npm-global.git"
+    "url": "git+https://github.com/lukks/get-npm-global.git"
   },
   "author": "Lucas Barrena (LuKks)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukks/require-npm-global/issues"
+    "url": "https://github.com/lukks/get-npm-global/issues"
   },
-  "homepage": "https://github.com/lukks/require-npm-global#readme"
+  "homepage": "https://github.com/lukks/get-npm-global#readme"
 }
