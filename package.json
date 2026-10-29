@@ -1,6 +1,6 @@
 {
   "name": "get-npm-global",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Require a package from the global NPM path",
   "main": "index.js",
   "files": [],
